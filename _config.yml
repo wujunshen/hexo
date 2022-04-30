@@ -117,7 +117,7 @@ live2d:
     use: live2d-widget-model-tororo #模型选择
   display:
     position: right
-    width: 150
+    width: 120
     height: 300
   mobile:
     show: true
