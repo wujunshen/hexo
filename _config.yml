@@ -104,7 +104,6 @@ theme: fluid
 deploy:
   type: ''
 
-
 live2d:
   enable: true
   scriptFrom: local
@@ -123,3 +122,6 @@ live2d:
     show: true
   react:
     opacity: 0.7
+aplayer:
+  meting: true
+  asset_inject: false
