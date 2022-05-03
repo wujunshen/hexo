@@ -404,6 +404,7 @@ footer:
   #    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
   #  '
   content: '<span>我是有底线的</span>'
+#  {% meting "563622475" "netease" "song" "autoplay" "mutex:true" "preload:auto" "theme:#ad7a86" %}
 
   # 展示网站的 PV、UV 统计数
   # Display website PV and UV statistics
@@ -432,7 +433,6 @@ footer:
     police_code: 12345678
     # 公安备案的图片. 为空时不显示备案图片
     police_icon: /img/police_beian.png
-
 
 #---------------------------
 # 首页
