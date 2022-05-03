@@ -124,6 +124,18 @@ live2d:
     show: true
   react:
     opacity: 0.7
+
 aplayer:
   meting: true
   asset_inject: false
+
+    # Extensions
+    ## Plugins: http://hexo.io/plugins/
+    #RSS订阅
+plugin:
+- hexo-generator-feed
+    #Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20

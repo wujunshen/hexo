@@ -1018,3 +1018,4 @@ static_prefix:
   hint: https://cdn.jsdelivr.net/npm/hint.css@2/
 
 
+rss: /atom.xml
