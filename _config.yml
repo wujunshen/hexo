@@ -130,15 +130,27 @@ aplayer:
   asset_inject: false
 
     # Extensions
-    ## Plugins: http://hexo.io/plugins/
-    #RSS订阅
-plugin:
-- hexo-generator-feed
-    #Feed Atom
+  ## Plugins: http://hexo.io/plugins/
+  #RSS订阅
+Plugins:
+  - hexo-generator-feed
+  - hexo-generator-baidu-sitemap
+  - hexo-generator-sitemap
+
+#Feed Atom
 feed:
-type: atom
-path: atom.xml
-limit: 20
+  type: atom
+  path: atom.xml
+  limit: 20
+
+baidusitemap:
+  path: baidusitemap.xml
+  limit: 20
+
+sitemap:
+  path: sitemap.xml
+  limit: 20
+  hostname: www.wujunshen.github.io
 
 server:
   port: 8088
