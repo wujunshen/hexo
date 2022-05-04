@@ -323,7 +323,7 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
-#    - { key: "歌单", link: "/musics/", icon: "iconfont icon-music" }
+    - { key: "音乐", link: "/musics/", icon: "iconfont icon-music" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
@@ -672,7 +672,7 @@ post:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis
-    type: gitalk
+    type: valine
 
 #---------------------------
 # 评论插件
@@ -733,8 +733,8 @@ gitalk:
 # Based on LeanCloud
 # See: https://valine.js.org/
 valine:
-  appId:
-  appKey:
+  appId: AotNUTqXh4KxbyAqtWFR9PH6-gzGzoHsz
+  appKey: cqckpd2YjhM5GWX2Ew4tKNyY
   path: window.location.pathname
   placeholder:
   avatar: 'retro'
