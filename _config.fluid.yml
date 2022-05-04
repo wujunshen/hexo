@@ -403,7 +403,11 @@ footer:
   #    <i class="iconfont icon-love"></i>
   #    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
   #  '
-  content: '<span>我是有底线的</span>'
+  content: '<div style="font-size: 0.85rem">
+      <span id="timeDate">载入天数...</span>
+      <span id="times">载入时分秒...</span>
+      <script src="/js/duration.js"></script>
+    </div>'
 #  {% meting "563622475" "netease" "song" "autoplay" "mutex:true" "preload:auto" "theme:#ad7a86" %}
 
   # 展示网站的 PV、UV 统计数
