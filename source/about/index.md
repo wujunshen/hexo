@@ -4,10 +4,6 @@ date: 2022-04-30 03:35:21
 layout: about
 ---
 
-# **教育背景** 
-
-1997.09-2001.07 上海大学计算机科学与技术学院 本科
-
 # **开源代码**
 
 [码云地址](https://gitee.com/darkranger/projects)

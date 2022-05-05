@@ -930,7 +930,7 @@ links:
   # Member item of page
   items:
     - {
-      title: 'maomaoinsh',
+      title: '猫猫老师',
       intro: '一个有趣的妹纸',
       link: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIwMzA4ODYzNw==&scene=124#wechat_redirect',
       avatar: '/img/zhu.png'
