@@ -8,6 +8,7 @@ tags:
 comments: true
 layout: post
 index_img: /img/jetbrain/1920x1080-fleet2022_1.png
+date: 2022-05-04 23:33:21
 ---
 
 面向对象的设计原则也被称为SOLID。SOLID最初是由Robert C.Martin所提出的，是敏捷软件开发过程的一部分。SOLID原则包括单一职责原则（S）、开闭原则（O）、里氏替换原则（L）、接口隔离原则（I）和依赖倒置原则（D）
