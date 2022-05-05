@@ -324,9 +324,8 @@ navbar:
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
 #    - { key: "音乐", link: "/musics/", icon: "iconfont icon-music" }
+    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
-
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
 search:
@@ -923,13 +922,19 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/links.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
-  subtitle:
+  subtitle: 我的互联网朋友们
   # 友链的成员项
   # Member item of page
   items:
+    - {
+      title: 'maomaoinsh',
+      intro: '一个有趣的妹纸',
+      link: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIwMzA4ODYzNw==&scene=124#wechat_redirect',
+      avatar: '/img/zhu.png'
+    }
   #    - {
   #      title: "Fluid Blog",
   #      intro: "主题博客",
