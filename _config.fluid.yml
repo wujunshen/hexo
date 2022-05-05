@@ -935,6 +935,12 @@ links:
       link: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIwMzA4ODYzNw==&scene=124#wechat_redirect',
       avatar: '/img/zhu.png'
     }
+    - {
+      title: '程序员的进击之路',
+      intro: '程序猿DD,不用我介绍了吧?',
+      link: 'https://www.didispace.com/',
+      avatar: '/img/dd.png'
+    }
   #    - {
   #      title: "Fluid Blog",
   #      intro: "主题博客",
