@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://www.wujunshen.cn/
+url: http://www.wujunshen.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,9 +102,11 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repository: https://github.com/wujunshen/wujunshen.github.io.git
+- type: git
+  repository:
+    github: https://github.com/wujunshen/wujunshen.github.io.git
   branch: master
+- type: baidu_url_submitter
 
 live2d:
   enable: true
@@ -156,3 +158,9 @@ server:
   port: 8088
   compress: true
   header: true
+
+baidu_url_submit:
+  count: 1               # 提交最新的多少个链接
+  host: www.wujunshen.cn    # 在百度站长平台中添加的域名
+  token: Nh4OKQnnimSqvtDy      # 秘钥
+  path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
