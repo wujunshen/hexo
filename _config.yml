@@ -102,11 +102,11 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-- type: git
-  repository:
-    github: https://github.com/wujunshen/wujunshen.github.io.git
-  branch: master
-- type: baidu_url_submitter
+  - type: git
+    repository:
+      github: https://github.com/wujunshen/wujunshen.github.io.git
+    branch: master
+  - type: baidu_url_submitter
 
 live2d:
   enable: true
@@ -131,7 +131,7 @@ aplayer:
   meting: true
   asset_inject: false
 
-    # Extensions
+  # Extensions
   ## Plugins: http://hexo.io/plugins/
   #RSS订阅
 Plugins:
