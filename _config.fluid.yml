@@ -194,10 +194,10 @@ color:
 # Font
 font:
   font_size: 18px
-  font_family:
+  font_family: Noto Serif SC
   letter_spacing: 0.02em
   code_font_size: 85%
-
+  custom_css: https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap
 # 指定自定义 .js 文件路径，支持列表；路径是相对 source 目录，如 /js/custom.js 对应存放目录 source/js/custom.js
 # Specify the path of your custom js file, support list. The path is relative to the source directory, such as `/js/custom.js` corresponding to the directory `source/js/custom.js`
 custom_js:
@@ -207,7 +207,6 @@ custom_js:
 # The usage is the same as custom_js
 custom_css:
   - https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css   #/APlayer依赖
-
 # 自定义 <head> 节点中的 HTML 内容
 # Customize <head> HTML content
 custom_head: ''
@@ -219,7 +218,7 @@ custom_html: ''
 # 网页访问统计
 # Analysis of website visitors
 web_analytics: # 网页访问统计
-  enable: false
+  enable: true
 
   # 百度统计的 Key，值需要获取下方链接中 `hm.js?` 后边的字符串
   # Baidu analytics, get the string behind `hm.js?`
@@ -266,7 +265,7 @@ web_analytics: # 网页访问统计
     path: window.location.pathname
     # 开启后不统计本地路径( localhost 与 127.0.0.1 )
     # If ture, ignore localhost & 127.0.0.1
-    ignore_local: false
+    ignore_local: true
 
 # 对页面中的图片和评论插件进行懒加载处理，可见范围外的元素不会提前加载
 # Lazy loading of images and comment plugin on the page
@@ -417,7 +416,7 @@ footer:
     # Data source. If use leancloud, you need to set the parameter in `web_analytics: leancloud`
     # Data source. If use leancloud, you need to set the parameter in `web_analytics: leancloud`
     # Options: busuanzi | leancloud
-    source: "busuanzi"
+    source: "leancloud"
 
     # 页面显示的文本，{}是数字的占位符（必须包含)，下同
     # Displayed text, {} is a placeholder for numbers (must be included), the same below
