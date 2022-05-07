@@ -735,7 +735,7 @@ valine:
   appId: AotNUTqXh4KxbyAqtWFR9PH6-gzGzoHsz
   appKey: cqckpd2YjhM5GWX2Ew4tKNyY
   path: window.location.pathname
-  placeholder:
+  placeholder: 说点什么吧...
   avatar: 'retro'
   meta: [ 'nick', 'mail', 'link' ]
   requiredFields: [ ]
