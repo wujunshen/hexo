@@ -1,10 +1,11 @@
 ---
-title: 我的技术书单
+title: <a href="http://www.wujunshen.cn/2022/05/03/ElasticSearch/#%E6%8E%A8%E8%8D%90%E4%B9%A6%E5%8D%95">ElasticSearch</a>
 banner_img: /img/page/books.png
 layout: books
 date: 2022-05-07 13:14:45
 ---
 <link rel="stylesheet" type="text/css" href="/css/books.css">
+
 <div id="book">
         <div class="page">
             <ul class="content">
@@ -35,6 +36,20 @@ date: 2022-05-07 13:14:45
                             <p>作者: 牛冬</p>
                             <p>出版社: 电子工业出版社</p>
                             <p>出版时间: 2020-03</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- 每个li标签内容代表一本书籍的所有信息 -->
+                <li>
+                    <div class="info"><a href="https://weread.qq.com/web/bookDetail/f9c32dc07184876ef9cdeb6" target="_blank" rel="noreferrer noopener" class="book-container">
+                            <div class="book" title="《Elasticsearch源码解析与优化实战》">
+                            <img src="/img/books/img3.png" ></div>
+                        </a>
+                        <div class="info-card">
+                            <h3>Elasticsearch源码解析与优化实战</h3>
+                            <p>作者: 张超</p>
+                            <p>出版社: 电子工业出版社</p>
+                            <p>出版时间: 2018-11</p>
                         </div>
                     </div>
                 </li>
