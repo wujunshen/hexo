@@ -240,26 +240,6 @@
     color: #d68fe9;
 }
 
-.icon-star:before {
-    content: "\e80b";
-}
-
-[class*=" icon-"]:before,
-[class^=icon-]:before {
-    font-family: Noto Serif SC;
-    font-style: normal;
-    font-weight: 400;
-    display: inline-block;
-    text-decoration: inherit;
-    width: 1em;
-    text-align: center;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 #book .content li .description {
     padding: 12px;
     font-size: 14px;

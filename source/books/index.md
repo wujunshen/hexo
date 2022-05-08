@@ -17,10 +17,7 @@ date: 2022-05-07 13:14:45
                             </div>
                         </a>
                         <div class="info-card">
-                            <div class="hidden-content">
-                                <p class="text">本书在回顾Elasticsearch基础知识的同时，介绍了最新版本Elasticsearch 5的新功能，并对其中级和高级的功能（如查询、索引、搜索和修改数据）进行了详细说明。</p>
-                            </div>
-                            <h3>《深入理解Elasticsearch》</h3>
+                            <h3>深入理解Elasticsearch</h3>
                             <p>作者: [印]波哈维·荻西特</p>
                             <p>出版社: 机械工业出版社</p>     
                             <p>出版时间: 2020-01</p>  
@@ -34,11 +31,7 @@ date: 2022-05-07 13:14:45
                             <img src="/img/books/img2.png" ></div>
                         </a>
                         <div class="info-card">
-                            <div class="hidden-content">
-                                <p class="text">本书基于Elasticsearch 7.
-X版本编写，内容由浅入深，先教会初学者使用，再介绍背后的原理。共分为三大部分，分别是Elasticsearch前传,Elasticsearch实战,Elasticsearch生态。</p>
-                            </div>
-                            <h3>《Elasticsearch实战与原理解析》</h3>
+                            <h3>Elasticsearch实战与原理解析</h3>
                             <p>作者: 牛冬</p>
                             <p>出版社: 电子工业出版社</p>
                             <p>出版时间: 2020-03</p>
