@@ -1,11 +1,10 @@
 ---
-title: <a href="http://www.wujunshen.cn/2022/05/03/ElasticSearch/#%E6%8E%A8%E8%8D%90%E4%B9%A6%E5%8D%95">ElasticSearch</a>
+title: <a href="/posts/3565236947.html#推荐书单">ElasticSearch</a>
 banner_img: /img/page/books.png
 layout: books
 date: 2022-05-07 13:14:45
 ---
 <link rel="stylesheet" type="text/css" href="/css/books.css">
-
 <div id="book">
         <div class="page">
             <ul class="content">

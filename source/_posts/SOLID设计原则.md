@@ -2,12 +2,13 @@
 title: SOLID设计原则
 excerpt: 设计模式
 categories:
-- 设计模式
+  - 设计模式
 tags:
-- 设计模式
+  - 设计模式
 comments: true
 layout: post
 index_img: /img/jetbrain/1920x1080-fleet2022_1.png
+abbrlink: 3081234936
 date: 2022-05-04 23:33:21
 ---
 
