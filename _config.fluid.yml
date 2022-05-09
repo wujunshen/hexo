@@ -326,7 +326,7 @@ navbar:
         icon: "iconfont icon-books",
         submenu: [
            { key: 'ElasticSearch', link: '/ElasticSearch/' },
-#           { key: '配置指南', link: 'https://hexo.fluid-dev.com/docs/guide/' },
+           { key: 'Kafka', link: '/Kafka/' },
 #           { key: '图标用法', link: 'https://hexo.fluid-dev.com/docs/icon/' },
         ]
     }
