@@ -327,7 +327,7 @@ navbar:
         submenu: [
            { key: 'ElasticSearch', link: '/ElasticSearch/' },
            { key: 'Kafka', link: '/Kafka/' },
-#           { key: '图标用法', link: 'https://hexo.fluid-dev.com/docs/icon/' },
+           { key: '协议', link: '/协议/' },
         ]
     }
 #    - { key: "歌单", link: "/musics/", icon: "iconfont icon-music" }

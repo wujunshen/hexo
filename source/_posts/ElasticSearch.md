@@ -195,26 +195,9 @@ scroll 会一次性生成所有数据的一个快照，然后每次滑动向后�
 初始化时必须指定 scroll 参数，告诉 es 要保存此次搜索的上下文多长时间。你需要确保用户不会持续不断翻页翻几个小时，否则可能因为超时而失败。
 除了用 scroll api，你也可以用 search_after 来做，search_after 的思想是使用前一页的结果来帮助检索下一页的数据，这种方式也不允许随意翻页，只能一页页往后翻。初始化时，需要使用一个唯一值的字段作为 sort 字段。
 
-## [推荐书单](/ElasticSearch)
-1.《深入理解Elasticsearch（原书第3版）》
-作者: [印]波哈维·荻西特
-出版社: 机械工业出版社
-出版时间: 2020-01
-ISBN: 9787111643074
-
-2.《Elasticsearch实战与原理解析》
-作者: 牛冬
-出版社: 电子工业出版社
-出版时间: 2020-03
-ISBN: 9787121383809
-
-3.《Elasticsearch源码解析与优化实战》
-作者: 张超
-出版社: 电子工业出版社
-出版时间: 2018-11
-ISBN: 9787121352164
-
 # 参考资料
 1.[中华石杉--互联网Java进阶面试训练营](https://gitee.com/shishan100/Java-Interview-Advanced)
   
 2.[Elasticsearch性能调优](https://elasticsearch.cn/article/6202)
+
+## [推荐书单](/ElasticSearch)
