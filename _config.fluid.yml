@@ -328,6 +328,7 @@ navbar:
            { key: 'ElasticSearch', link: '/ElasticSearch/' },
            { key: 'Kafka', link: '/Kafka/' },
            { key: '协议', link: '/协议/' },
+           { key: '函数式编程', link: '/函数式编程/' },
         ]
     }
 #    - { key: "歌单", link: "/musics/", icon: "iconfont icon-music" }
