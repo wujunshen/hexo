@@ -1,10 +1,11 @@
 ---
 title: Kafka
-excerpt: Kafka相关
+excerpt: 消息队列-Kafka
 categories:
   - 中间件
 tags:
   - 中间件
+  - 消息队列
   - Kafka
 comments: true
 layout: post
