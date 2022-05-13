@@ -257,6 +257,12 @@ web_analytics: # 网页访问统计
   leancloud:
     appId: AotNUTqXh4KxbyAqtWFR9PH6-gzGzoHsz
     appKey: cqckpd2YjhM5GWX2Ew4tKNyY
+    counter:
+      enable: true
+    visitor:
+      enable: true
+    like:
+      enable: true
     # REST API 服务器地址，国际版不填
     # Only the Chinese mainland users need to set
     server_url: https://aotnutqx.lc-cn-n1-shared.com
@@ -426,7 +432,7 @@ footer:
     # Data source. If use leancloud, you need to set the parameter in `web_analytics: leancloud`
     # Data source. If use leancloud, you need to set the parameter in `web_analytics: leancloud`
     # Options: busuanzi | leancloud
-    source: "busuanzi"
+    source: "leancloud"
 
     # 页面显示的文本，{}是数字的占位符（必须包含)，下同
     # Displayed text, {} is a placeholder for numbers (must be included), the same below

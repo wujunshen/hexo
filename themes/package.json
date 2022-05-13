@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "hexo-admin": "^2.3.0",
+    "hexo-generator-index": "^2.0.0"
+  }
+}
