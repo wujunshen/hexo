@@ -53,11 +53,11 @@ HTTP请求报文是由三部分组成: **请求行、请求报头和请求正文
 
 * 请求行
   格式如下
-  ```
+  ``` javascript
   Method Request-URL HTTP-Version
   ```
   代码示例
-  ```
+  ``` javascript
   GET index.html HTTP/1.1
   ```
   常用的方法有: GET、POST、PUT、DELETE、OPTIONS、HEAD

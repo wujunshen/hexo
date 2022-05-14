@@ -104,7 +104,7 @@ RabbitMQ基于AMQP协议，通过使用通用协议就可以做到在不同语�
 选择 RabbitMQ 提供的事务功能，在生产者发送数据之前开启 RabbitMQ 事务 channel.txSelect，然后发送消息，如果消息没有成功被 RabbitMQ
 接收到，那么生产者会收到异常报错，此时就可以回滚事务channel.txRollback，然后重试发送消息；如果收到了消息，那么可以提交事务channel.txCommit
 
-```
+``` java
 // 开启事务
 channel.txSelect
 try {
