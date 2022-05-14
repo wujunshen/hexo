@@ -134,7 +134,7 @@ IO多路复用模型的IO涉及两种系统调用（System Call），另一种�
 
 ## 5种IO模型深入理解
 
-上面那节说的公式化和概念化，可能并不是很好理解，使用参考资料中提供的链接，打个比方进一步说明
+上面那节说的公式化和概念化，可能并不是很好理解，使用[参考资料](38366605.html#参考资料)中提供的链接，打个比方进一步说明
 
 钓鱼时，刚开始鱼是在鱼塘里面的，钓鱼动作的最终结束标志是鱼从鱼塘中被人钓上来，放入鱼篓中。
 
@@ -171,7 +171,6 @@ IO多路复用模型的IO涉及两种系统调用（System Call），另一种�
 ![5种模型对比](img/socket/ADF7EAEA1B65D61E782D7A3C687B50D3.jpg)
 
 # 参考资料
-1.漫话：如何给女朋友解释什么是Linux的五种IO模型？
-[https://mp.weixin.qq.com/s/3C7Iv1jof8jitOPL_4c_bQ](https://mp.weixin.qq.com/s/3C7Iv1jof8jitOPL_4c_bQ)
+1.[漫话：如何给女朋友解释什么是Linux的五种IO模型？](https://mp.weixin.qq.com/s/3C7Iv1jof8jitOPL_4c_bQ)
 
 # [推荐书单](/Socket)
