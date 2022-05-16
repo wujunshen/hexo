@@ -334,6 +334,7 @@ navbar:
           { key: 'ElasticSearch', link: '/ElasticSearch/' },
           { key: 'Kafka', link: '/Kafka/' },
           { key: 'RabbitMQ', link: '/RabbitMQ/' },
+          { key: 'Zookeeper', link: '/Zookeeper/' },
           { key: '协议', link: '/协议/' },
           { key: 'Socket', link: '/Socket/' },
           { key: '函数式编程', link: '/函数式编程/' },
