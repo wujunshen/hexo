@@ -211,7 +211,8 @@ public class HelloServiceMock implements HelloService {
   把数据结构或对象转换为二进制串的过程
 * 反序列化
   在序列化过程中所生成的二进制串转换成数据结构或者对象的过程
-  ![反序列化](img/dubbo/477EE8CB-C8B6-4349-80E2-A7F4B594506A.png)
+  
+![反序列化](img/dubbo/477EE8CB-C8B6-4349-80E2-A7F4B594506A.png)
 
 ### dubbo支持不同的通信协议
 * dubbo协议
