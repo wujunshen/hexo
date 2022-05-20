@@ -104,9 +104,10 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repository:
-      github: https://gitee.com/darkranger/darkranger.git
+    repo: https://gitee.com/darkranger/darkranger.git
+    #      github: https://github.com/wujunshen/wujunshen.github.io.git
     branch: master
+    message: '[吴峻申] #N/A backup: 备份并发布gitee Page'
   - type: baidu_url_submitter
 
 live2d:
@@ -171,7 +172,7 @@ abbrlink:
   alg: crc32  # 算法：crc16(default) and crc32
   rep: dec    # 进制：dec(default) and hex
 
-all_minifier: true
+all_minifier: false
 
 # html压缩
 html_minifier:
