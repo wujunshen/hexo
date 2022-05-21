@@ -341,6 +341,7 @@ navbar:
           { key: 'Socket', link: '/Socket/' },
           { key: '函数式编程', link: '/函数式编程/' },
           { key: 'Istio', link: '/Istio/' },
+          { key: '算法', link: '/algorithm/' },
         ]
     }
     #    - { key: "歌单", link: "/musics/", icon: "iconfont icon-music" }
