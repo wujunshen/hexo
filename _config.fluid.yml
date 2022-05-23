@@ -340,6 +340,7 @@ navbar:
           { key: '协议', link: '/协议/' },
           { key: 'Socket', link: '/Socket/' },
           { key: '函数式编程', link: '/函数式编程/' },
+          { key: '设计模式', link: '/设计模式/' },
           { key: 'Istio', link: '/Istio/' },
           { key: '算法', link: '/algorithm/' },
         ]
