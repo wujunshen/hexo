@@ -17,7 +17,7 @@ date: 2022-05-22 00:15:24
 
 # 概念
 
-红黑树就是二叉搜索树:`Binary Search Tree，BST`但是特殊之处在于它是自平衡（动态平衡）的二叉搜索树（二叉搜索树概念见前述树的篇章），在进行元素节点插入和删除时，会破坏树的平衡，需要重新自我进行旋转，从而达到平衡
+红黑树就是二叉搜索树:`Binary Search Tree，BST`但是特殊之处在于它是自平衡（动态平衡）的[二叉搜索树](/posts/2065787451.html#二叉搜索树)，在进行元素节点插入和删除时，会破坏树的平衡，需要重新自我进行旋转，从而达到平衡
 
 >它是由`Rudolf Bayer`于1972年发明，当时被称为对称二叉B树(`symmetric binary B-trees`)。
 >后来，在1978年被`Leo J. Guibas`和`Robert Sedgewick`改称为如今的红黑树
@@ -25,7 +25,7 @@ date: 2022-05-22 00:15:24
 
 # 特点
 
-前述树的篇章也有说到红黑树，这里再次展开说明一下，让大家能更加清晰红黑树的概念
+前述树的篇章也有说到[红黑树](/posts/2065787451.html#红黑树)，这里再次展开说明一下，让大家能更加清晰红黑树的概念
 
 1. 每节点要么是黑色，要么是红色
 2. 根节点是黑色
@@ -118,7 +118,7 @@ public class RBTree<T> {
 
 这里不做过多说明，见下文插入、删除元素操作
 
->注意: 文字和图如果还理解不了，这里分享一个链接[https://www.cs.usfca.edu/~galles/visualization/RedBlack.html](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
+>注意: 文字和图如果还理解不了，这里分享一个链接[红黑树动态演示增删查和遍历](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
 >有兴趣的可以打开网页，自行进行元素添加，删除操作看看是否符合前述这些情况中的说明
 
 # 插入元素操作
