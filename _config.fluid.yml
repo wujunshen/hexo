@@ -336,6 +336,7 @@ navbar:
           { key: 'RabbitMQ', link: '/RabbitMQ/' },
           { key: 'Zookeeper', link: '/Zookeeper/' },
           { key: 'Redis', link: '/Redis/' },
+          { key: 'Mysql', link: '/mysql/' },
           { key: 'Dubbo', link: '/Dubbo/' },
           { key: '协议', link: '/协议/' },
           { key: 'Socket', link: '/Socket/' },
