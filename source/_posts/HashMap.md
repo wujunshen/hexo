@@ -394,8 +394,7 @@ hashMap的红黑树不一定小于6时才退化成链表，而是只有在resize
 * 对key为null和value为null支持
   HashMap的key可以为null，但不能重复。value可以重复，也可以为null。HashTable不行，key只要有null就会抛NullPointerException异常
 * 初始容量和扩充容量大小
-  HashTable默认容量是11，每次扩充，容量变为原来的2n+1。HashMap默认容量是16，扩充因子是0.75，也就是说put元素个数超过16* 0.
-  75=12后，会自动扩充一倍，容量到32。如果初始化时候指定容量初始值，HashTable会直接使用指定的初始值。而HashMap会扩充为2的幂（见[tableSizeFor](1029785637.html#补充说明)方法，代码附在最后）
+  HashTable默认容量是11，每次扩充，容量变为原来的2n+1。HashMap默认容量是16，扩充因子是0.75，也就是说put元素个数超过`16*0.75=12`后，会自动扩充一倍，容量到32。如果初始化时候指定容量初始值，HashTable会直接使用指定的初始值。而HashMap会扩充为2的幂（见[tableSizeFor](1029785637.html#补充说明)方法，代码附在最后）
 * 数据结构
   java8开始，HashMap解决hash碰撞时，会将链表长度大于阈值8的转化为红黑树，将搜索时间复杂度从`O（N）`降为`O（logn）`。以此减少搜索时间
 
