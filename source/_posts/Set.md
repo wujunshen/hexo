@@ -9,7 +9,7 @@ tags:
   - Set
 comments: true
 layout: post
-index_img: /img/milan/11.png
+index_img: /img/jetbrain/1920x1080-hub2022_1.png
 abbrlink: 3730400060
 date: 2022-05-30 09:58:03
 sticky: 886

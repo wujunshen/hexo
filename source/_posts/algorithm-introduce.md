@@ -15,10 +15,10 @@ tags:
   - 贪心
 comments: true
 layout: post
-index_img: /img/milan/12.png
+index_img: /img/milan/11.png
 abbrlink: 3278271016
 date: 2022-05-30 19:47:59
-sticky: 800
+sticky: 1000
 ---
 
 # 二分查找
