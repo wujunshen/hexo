@@ -11,6 +11,7 @@ layout: post
 index_img: /img/jetbrain/1920x1080-rubymine2022_1.png
 abbrlink: 3135569683
 date: 2022-05-21 21:23:30
+sticky: 70
 ---
 # 基础
 

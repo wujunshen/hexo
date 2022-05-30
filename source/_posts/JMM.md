@@ -11,6 +11,7 @@ layout: post
 index_img: /img/jetbrain/1920x1080-resharper-cpp2022_1.png
 abbrlink: 3489062241
 date: 2022-05-19 09:04:28
+sticky: 690
 ---
 
 Java内存模型（JMM）

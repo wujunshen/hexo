@@ -11,6 +11,7 @@ layout: post
 index_img: /img/jetbrain/1920x1080-pycharm2022_1.png
 abbrlink: 4129633176
 date: 2022-05-17 11:05:09
+sticky: 400
 ---
 
 # 工作原理

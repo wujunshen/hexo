@@ -12,6 +12,7 @@ layout: post
 index_img: /img/jetbrain/1920x1080-dataspell2022_1.png
 abbrlink: 2591906323
 date: 2022-05-10 07:02:37
+sticky: 90
 ---
 
 ## 基本概念

@@ -12,6 +12,7 @@ layout: post
 index_img: /img/jetbrain/1920x1080-clion2022_1.png
 abbrlink: 2464482875
 date: 2022-05-09 06:20:02
+sticky: 190
 ---
 
 ## 浏览器输入url地址到显示主页的过程

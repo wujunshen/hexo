@@ -12,6 +12,7 @@ layout: post
 index_img: /img/jetbrain/1920x1080-dottrace2022_1.png
 abbrlink: 38366605
 date: 2022-05-14 12:43:08
+sticky: 180
 ---
 
 OSI七层协议和TCP/IP四层协议里都没有这个socket，它是从哪里出来的？

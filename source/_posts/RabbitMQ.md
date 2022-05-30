@@ -12,6 +12,7 @@ layout: post
 index_img: /img/jetbrain/1920x1080-dotpeek2022_1.png
 abbrlink: 3041119952
 date: 2022-05-13 06:22:50
+sticky: 80
 ---
 
 消息队列使用目的:

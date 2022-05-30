@@ -11,6 +11,7 @@ layout: post
 index_img: /img/jetbrain/1920x1080-datalore2022_1.png
 abbrlink: 3565236947
 date: 2022-05-03 21:50:21
+sticky: 100
 ---
 
 ## 基础

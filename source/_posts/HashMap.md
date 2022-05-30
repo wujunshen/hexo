@@ -13,6 +13,7 @@ layout: post
 index_img: /img/jetbrain/1920x1080-webstorm2022_1.png
 abbrlink: 1029785637
 date: 2022-05-26 09:21:48
+sticky: 898
 ---
 
 # 概念

@@ -11,6 +11,7 @@ layout: post
 index_img: /img/jetbrain/1920x1080-resharper2022_1.png
 abbrlink: 4266433718
 date: 2022-05-18 20:57:22
+sticky: 688
 ---
 
 # 概念

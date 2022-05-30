@@ -13,6 +13,7 @@ layout: post
 index_img: /img/jetbrain/1920x1080-youtrack2022_1.png
 abbrlink: 3455415529
 date: 2022-05-27 21:39:13
+sticky: 896
 ---
 
 # 概念

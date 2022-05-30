@@ -13,6 +13,7 @@ layout: post
 index_img: /img/jetbrain/1920x1080-space2022_1.png
 abbrlink: 3929952611
 date: 2022-05-22 00:15:24
+sticky: 888
 ---
 
 # 概念

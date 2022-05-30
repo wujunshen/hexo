@@ -12,6 +12,7 @@ layout: post
 index_img: /img/jetbrain/1920x1080-upsource2022_1.png
 abbrlink: 2501908538
 date: 2022-05-25 18:37:37
+sticky: 60
 ---
 # 基础
 
