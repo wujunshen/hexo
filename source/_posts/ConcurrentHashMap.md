@@ -380,7 +380,7 @@ CAS失败中浪费很多CPU时间。通过线程变量的方法，将多线程�
    2.2 先看源码中第一个if判断 `(sc >>> RESIZE_STAMP_SHIFT) != rs`意味着数组长度已经发生变化，扩容可能已结束，不需要协助。`transferIndex <= 0`
 意味着原始数组已无可分配的扩容区域，不需要协助。
 `sc == rs + 1 || sc == rs + MAX_RESIZERS`
-这个条件永远不会达成，属于bug。具体可看 [JDK-8214427: probable bug in logic of ConcurrentHashMap.addCount()](https://bugs.java.com/bugdatabase/viewbug.do?bugid=JDK-8214427) (java12版本已修复)
+这个条件永远不会达成，属于bug。具体可看 [JDK-8214427: probable bug in logic of ConcurrentHashMap.addCount()](https://bugs.java.com/bugdatabase/view_bug.do?bug_id=8214427) (java12版本已修复)
 如果确认需要协助，就到第二个if。`if (U.compareAndSetInt(this, SIZECTL, sc, sc + 1))`通过 CAS增加了一个协助线程数量，然后执行transfer迁移方法
    2.3 通过CAS对sizeCtl值进行置换。扩容时需要置换的值含义上面也说过（正数），左边是盖戳标记，右边是参与扩容的线程数
 
@@ -501,4 +501,4 @@ JAVA8之前主要采用锁机制，对某个Segment进行操作时，锁定该Se
 
 # 参考资料
 
-1. [JDK-8214427: probable bug in logic of ConcurrentHashMap.addCount()](https://bugs.java.com/bugdatabase/viewbug.do?bugid=JDK-8214427)
+1. [JDK-8214427: probable bug in logic of ConcurrentHashMap.addCount()](https://bugs.java.com/bugdatabase/view_bug.do?bug_id=8214427)
