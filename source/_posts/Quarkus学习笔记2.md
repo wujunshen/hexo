@@ -21,27 +21,29 @@ date: 2022-06-22 18:25:57
 
 ## new project
 
-![2](img/quarkus/D51B5E83-AF00-4D96-AAB5-73BDA3F1487D.png)
+![](img/quarkus/D51B5E83-AF00-4D96-AAB5-73BDA3F1487D.png)
 
 选择已安装graalvm的java17版本
 
-![3](img/quarkus/B665EE8E-41E7-4798-A8A2-B13E13FA186E.png)
+如何安装graalvm的java17版本，可见<a href="/posts/877356228.html#graalvm">graalvm</a>
 
-![4](img/quarkus/A6959508-98A3-4128-B6FD-F724EC5370D8.png)
+![](img/quarkus/B665EE8E-41E7-4798-A8A2-B13E13FA186E.png)
+
+![](img/quarkus/A6959508-98A3-4128-B6FD-F724EC5370D8.png)
 
 可选择各种扩展，或者不选，直接create
 
 指定graalvm的java17版本
 
-![5](img/quarkus/A88DCF4B-C700-46E4-B239-D72522744A7B.png)
+![](img/quarkus/A88DCF4B-C700-46E4-B239-D72522744A7B.png)
 
 指定项目模块配置
 
-![6](img/quarkus/825CBDFC-0793-4326-A429-A5A40B606E90.png)
+![](img/quarkus/825CBDFC-0793-4326-A429-A5A40B606E90.png)
 
 新建好的quarkus项目如下
 
-![7](img/quarkus/16D2F543-9ABD-4433-A6D3-6DC6822D349B.png)
+![](img/quarkus/16D2F543-9ABD-4433-A6D3-6DC6822D349B.png)
 
 
 # 如何启动quarkus项目
@@ -50,31 +52,31 @@ date: 2022-06-22 18:25:57
 
 点击红框按钮
 
-![8](img/quarkus/868D143C-98D9-4772-9BB8-D7A208BE270C.png)
+![](img/quarkus/868D143C-98D9-4772-9BB8-D7A208BE270C.png)
 
 输入
 ``` java
 mvn compile quarkus:dev
 ```
 
-![9](img/quarkus/08BFDA2E-96E7-418F-B143-FE213A4B9D48.png)
+![](img/quarkus/08BFDA2E-96E7-418F-B143-FE213A4B9D48.png)
 
 启动成功后，点击红框链接
 
 
-![10](img/quarkus/122A88A3-8979-4C21-8EE3-D77A7F6F17D8.png)
+![](img/quarkus/122A88A3-8979-4C21-8EE3-D77A7F6F17D8.png)
 
 界面一览
 
-![11](img/quarkus/E6A0AD91-C3A8-4AC2-A4B1-C4C2F7B2E36D.png)
+![](img/quarkus/E6A0AD91-C3A8-4AC2-A4B1-C4C2F7B2E36D.png)
 
 点击下方红色划线
 
-![12](img/quarkus/9AFB6246-CC61-4DC8-8B80-88FDBB1F38E8.png)
+![](img/quarkus/9AFB6246-CC61-4DC8-8B80-88FDBB1F38E8.png)
 
 效果如下
 
-![13](img/quarkus/B9FD4556-C450-40BF-9C9D-767F35BDD41B.png)
+![](img/quarkus/B9FD4556-C450-40BF-9C9D-767F35BDD41B.png)
 
 还提供一个开发者界面
 
@@ -83,13 +85,13 @@ http://localhost:8080/q/dev/
 
 随便点了几下，效果如如下
 
-![14](img/quarkus/5E54DD0F-E753-4BD9-8182-EF1117452327.png)
+![](img/quarkus/5E54DD0F-E753-4BD9-8182-EF1117452327.png)
 
-![15](img/quarkus/8F32C5B1-BE7D-4361-8D6D-E1047474DD32.png)
+![](img/quarkus/8F32C5B1-BE7D-4361-8D6D-E1047474DD32.png)
 
-![16](img/quarkus/E232CC11-E590-4413-9093-957E5EE62B2A.png)
+![](img/quarkus/E232CC11-E590-4413-9093-957E5EE62B2A.png)
 
-![17](img/quarkus/F7C2CC47-FF5F-456F-915F-2AF04EF3BC06.png)
+![](img/quarkus/F7C2CC47-FF5F-456F-915F-2AF04EF3BC06.png)
 
 ## 第二种启动方式
 
@@ -105,7 +107,7 @@ java -jar target/quarkus-app/quarkus-run.jar
 
 效果如下
 
-![18](img/quarkus/B15B8025-AF97-4259-94BE-8966C61AFC11.png)
+![](img/quarkus/B15B8025-AF97-4259-94BE-8966C61AFC11.png)
 
 但这个不是像spring-boot那样直接可执行的jar包，要想像spring-boot那样可执行，需要如下
 
@@ -117,7 +119,7 @@ mvn package -Dquarkus.package.type=uber-jar
 java -jar target/*-runner.jar
 ```
 
-![19](img/quarkus/4E84840E-A517-464C-876B-1DAD95FADCF8.png)
+![](img/quarkus/4E84840E-A517-464C-876B-1DAD95FADCF8.png)
 
 ## 第四种启动方式（原生方式）
 
@@ -133,7 +135,7 @@ mvn package -Pnative -Dquarkus.native.container-build=true
 
 执行成功后如下图
 
-![20](img/quarkus/00C18046-BF69-40A2-92EB-122723374761.png)
+![](img/quarkus/00C18046-BF69-40A2-92EB-122723374761.png)
 
 然后执行
 
@@ -141,8 +143,9 @@ mvn package -Pnative -Dquarkus.native.container-build=true
 ./target/quarkus-demo-1.0-SNAPSHOT-runner
 ``` 
 
-![21](img/quarkus/77915776-9730-4179-A7F4-CCCDD997548A.png)
+![](img/quarkus/77915776-9730-4179-A7F4-CCCDD997548A.png)
 
+如何安装native-image，见<a href="/posts/877356228.html#native-image">native-image</a>
 更多原生启动方式资料可见
 
 https://quarkus.io/guides/maven-tooling
@@ -164,5 +167,5 @@ https://quarkus.io/guides/
 
 右上角选择相应版本
 
-![22](img/quarkus/C37C0EE7-EE49-48FA-B7CC-A9F9E0B6319B.png)
+![](img/quarkus/C37C0EE7-EE49-48FA-B7CC-A9F9E0B6319B.png)
 
