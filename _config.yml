@@ -104,11 +104,11 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repo: https://gitee.com/darkranger/darkranger.git
-#    repo: https://github.com/wujunshen/wujunshen.github.io.git
+    #    repo: https://gitee.com/darkranger/darkranger.git
+    repo: https://github.com/wujunshen/wujunshen.github.io.git
     branch: master
-#    message: '[吴峻申] #N/A backup: 备份并发布github.io'
-    message: '[吴峻申] #N/A backup: 备份并发布gitee Page'
+    message: '[吴峻申] #N/A backup: 备份并发布github.io'
+  #    message: '[吴峻申] #N/A backup: 备份并发布gitee Page'
   - type: baidu_url_submitter
 
 live2d:
