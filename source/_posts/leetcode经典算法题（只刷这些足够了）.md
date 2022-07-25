@@ -39,8 +39,8 @@ date: 2022-06-30 17:26:58
 * [反转链表](http://leetcode-cn.com/problems/reverse-linked-list)（简单）
 * [反转链表II](http://leetcode-cn.com/problems/reverse-linked-list-ii) （中等）
 * [旋转链表](http://leetcode-cn.com/problems/rotate-list)（中等）
-* [排序链表](http://leetcode-cn.com/problems/sort-list/)
-* [链表中倒数第k个节点](http://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
+* [排序链表](http://leetcode-cn.com/problems/sort-list/)（中等）
+* [链表中倒数第k个节点](http://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)（简单）
 * [两两交换链表中的节点](http://leetcode-cn.com/problems/swap-nodes-in-pairs)（中等）
 * [按奇偶排序数组](http://leetcode-cn.com/problems/sort-array-by-parity/)（简单）
 * [按奇偶排序数组II](http://leetcode-cn.com/problems/sort-array-by-parity-ii/)（简单）
@@ -52,7 +52,7 @@ date: 2022-06-30 17:26:58
 * [寻找旋转排序数组中的最小值II](http://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)（困难）
 * [搜索二维矩阵](http://leetcode-cn.com/problems/search-a-2d-matrix)（中等）
 * [等式方程的可满足性](http://leetcode-cn.com/problems/satisfiability-of-equality-equations/)（中等）
-* [朋友圈](http://leetcode-cn.com/problems/friend-circles/)（中等）
+* [省份数量](https://leetcode.cn/problems/number-of-provinces/submissions/)（中等）
 * [账户合并](http://leetcode-cn.com/problems/accounts-merge/)（中等）
 # 深度优先搜索
 * [二叉树的最大深度](http://leetcode-cn.com/problems/maximum-depth-of-binary-tree)（简单）
