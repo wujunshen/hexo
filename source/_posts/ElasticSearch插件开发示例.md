@@ -10,7 +10,7 @@ tags:
 comments: true
 layout: post
 index_img: /img/milan/18.png
-sticky: 101
+sticky: 10001
 abbrlink: 2158921611
 date: 2022-08-16 15:31:01
 ---
@@ -193,12 +193,9 @@ public class PrintPluginHandler extends BaseRestHandler {
         return PRINT_NAME;
     }
 
-    /**
-     *
-     */
     @Override
     public List<Route> routes() {
-        return List.of(new Route(Method.GET, "print"));
+        return Collections.emptyList();
     }
 
     /**
