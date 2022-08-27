@@ -205,11 +205,11 @@ curl -H "Content-Type:application/json" -X POST -d '{
 "analyzer": "hanlp_synonym",
 "text": "英特纳雄耐尔"
 }' http://localhost:9200/index-test/_analyze?pretty=true
-```  
+```
 
 见下图命令行执行结果
 
-![命令行执行结果](img/hanlp//76906b5b.png)
+![命令行执行结果](img/hanlp/76906b5b.png)
 
 
 # 开发介绍
@@ -276,6 +276,7 @@ ElasticSearch默认就有标准的英文分词器。
 具体见 [MyAnalyzerTest.java](https://gitee.com/darkranger/hanlp-plugin/blob/master/src/test/java/com/wujunshen/core/MyAnalyzerTest.java)
 
 其中具体说明一下私有方法 `analyze`
+
 
 ``` java
     private List<Token> analyze(SegmentationType segmentationType, String text) throws IOException {
